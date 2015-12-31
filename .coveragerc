@@ -1,0 +1,11 @@
+[run]
+source = myapp/
+omit =
+        myapp/tests.py
+        myapp/settings/dev.py
+        myapp/settings/preprod.py
+        myapp/settings/prod.py
+        myapp/settings/test.py
+[report]
+exclude_lines =
+    if __name__ == .__main__.:
