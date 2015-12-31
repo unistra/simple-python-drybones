@@ -68,7 +68,7 @@ def test():
     env.roledefs = {
         'web': ['192.168.1.4']
     }
-    env.server_name = 'myapp-folder'
+    # env.server_name = "myapp.net"  # optional: if you want to use an url for the name of the remote app folder instead of the application name (manual bottle or flask app)
     env.goal = "test"
     env.map_settings = {
         # uncomment to use :
@@ -81,9 +81,9 @@ def test():
 def preprod():
     """Define preprod stage"""
     env.roledefs = {
-        'web': ['myapp-preprod.net']
+        'web': ['myserver-preprod.net']
     }
-    env.server_name = 'myapp-folder'
+    # env.server_name = "myapp.net"  # optional: if you want to use an url for the name of the remote app folder instead of the application name (manual bottle or flask app)
     env.goal = "preprod"
     env.map_settings = {
         # uncomment to use :
@@ -96,9 +96,9 @@ def preprod():
 def prod():
     """Define prod stage"""
     env.roledefs = {
-        'web': ['myapp.net']
+        'web': ['myserver.net']
     }
-    env.server_name = 'myapp-folder'
+    # env.server_name = "myapp.net"  # optional: if you want to use an url for the name of the remote app folder instead of the application name (manual bottle or flask app)
     env.goal = "prod"
     env.map_settings = {
         # uncomment to use :
