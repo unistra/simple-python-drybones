@@ -1,4 +1,4 @@
-"""Rof Interface Individu
+"""Myapp
 
 Usage:
     main.py
