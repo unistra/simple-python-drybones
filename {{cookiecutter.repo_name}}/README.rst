@@ -6,7 +6,7 @@ Template pour les projets python simples type script.
 
 Prérequis
 =========
-pip, virtualenv, virtualenvwrapper et cookiecutter doivent être installés.
+pip, virtualenv et virtualenvwrapper doivent être installés.
 
 Procédure
 =========
@@ -24,7 +24,10 @@ Création du projet
 
 Pour créer le nouveau projet en utilisant le template::
 
-    $ cookiecutter https://github.com/unistra/simple-python-drybones.git
+    $ git clone https://github.com/unistra/simple-python-drybones.git myapp
+
+Le package par défaut s'appelle **myapp**. On pourra le renommer, ainsi que
+toutes les références à celui-ci dans les différents fichiers si besoin.
 
 Configuration du projet
 -----------------------
