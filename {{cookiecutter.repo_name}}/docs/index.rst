@@ -1,10 +1,12 @@
-.. myapp documentation master file, created by
+.. {{cookiecutter.repo_name}} documentation master file, created by
    sphinx-quickstart on Mon Aug 25 18:11:49 2014.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to myapp's documentation!
-==================================
+Welcome to {{cookiecutter.project_name}}'s documentation!
+=========================================================
+
+{{cookiecutter.project_short_description}}
 
 Contents:
 
@@ -19,4 +21,3 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
-

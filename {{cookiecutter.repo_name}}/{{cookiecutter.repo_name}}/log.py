@@ -5,7 +5,7 @@ Define the logger
 import logging
 
 # create logger
-logger = logging.getLogger('myapp')
+logger = logging.getLogger('{{cookiecutter.repo_name}}')
 logger.setLevel(logging.INFO)
 
 # create console handler and set level to debug

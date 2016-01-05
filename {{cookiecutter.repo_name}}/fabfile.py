@@ -21,8 +21,8 @@ env.use_sudo = True # use sudo or not
 env.remote_owner = 'myremoteuser'
 env.remote_group = 'myremotegroup'
 
-env.application_name = 'myapp'
-env.root_package_name = 'myapp'
+env.application_name = '{{cookiecutter.repo_name}}'
+env.root_package_name = '{{cookiecutter.repo_name}}'
 
 env.remote_home = '/home/myremoteuser'  # remote home root
 env.remote_python_version = 3.4  # python version

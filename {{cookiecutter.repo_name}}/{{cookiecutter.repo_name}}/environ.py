@@ -17,4 +17,4 @@ def settings(setting):
 def set_settings_module():
     if not os.environ.get("SETTINGS_MODULE"):
         os.environ.setdefault("SETTINGS_MODULE",
-                              "myapp.settings.{{ goal }}")
+                              "{{cookiecutter.repo_name}}.settings.{{ '{{' }} goal {{ '}}' }}")

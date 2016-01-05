@@ -14,6 +14,6 @@ class TestSettings(unittest.TestCase):
 
 if __name__ == '__main__':
     env = EnvironmentVarGuard()
-    env.set('SETTINGS_MODULE', 'myapp.settings.unittest')
+    env.set('SETTINGS_MODULE', '{{cookiecutter.repo_name}}.settings.unittest')
     with env:
         unittest.main()

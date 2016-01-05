@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# myapp documentation build configuration file, created by
+# {{cookiecutter.repo_name}} documentation build configuration file, created by
 # sphinx-quickstart on Mon Aug 25 18:11:49 2014.
 #
 # This file is execfile()d with the current directory set to its
@@ -47,7 +47,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'myapp'
+project = u'{{cookiecutter.repo_name}}'
 copyright = u'%s, Direction Informatique' % date.today().strftime("%Y")
 
 # The version info for the project you're documenting, acts as replacement for
@@ -180,7 +180,7 @@ html_static_path = ['_static']
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'myappdoc'
+htmlhelp_basename = '{{cookiecutter.repo_name}}doc'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -200,7 +200,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  ('index', 'myapp.tex', u'myapp Documentation',
+  ('index', '{{cookiecutter.repo_name}}.tex', u'{{cookiecutter.repo_name}} Documentation',
    u'Direction Informatique', 'manual'),
 ]
 
@@ -230,7 +230,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'myapp', u'myapp Documentation',
+    ('index', '{{cookiecutter.repo_name}}', u'{{cookiecutter.repo_name}} Documentation',
      [u'Direction Informatique'], 1)
 ]
 
@@ -244,8 +244,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'myapp', u'myapp Documentation',
-   u'Direction Informatique', 'myapp', 'One line description of project.',
+  ('index', '{{cookiecutter.repo_name}}', u'{{cookiecutter.repo_name}} Documentation',
+   u'Direction Informatique', '{{cookiecutter.repo_name}}', 'One line description of project.',
    'Miscellaneous'),
 ]
 
