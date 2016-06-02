@@ -4,7 +4,7 @@ Usage:
     main.py
 
 Options:
-    -h --help aide
+    -h --help  aide
 """
 
 from log import logger
